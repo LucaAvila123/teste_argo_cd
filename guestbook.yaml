@@ -11,8 +11,9 @@ metadata:
     # Alternatively, you can use background cascading deletion
     # - resources-finalizer.argocd.argoproj.io/background
   # Add labels to your application object.
+  # Teste para verificar se o argocd realmente muda de acordo com a configuração
   labels:
-    name: guestbook
+    name: my_project
 spec:
   # The project the application belongs to.
   project: default
